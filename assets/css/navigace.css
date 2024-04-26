@@ -1,0 +1,177 @@
+.lista-logo {
+    padding-top: 0.3em;
+    
+}
+
+menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #BA110F;
+}
+
+nav{
+    position: relative;
+    padding-top: 10px;
+
+}
+nav::after{
+    content:'';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: #BA110F;
+    mix-blend-mode: multiply;
+    
+    }
+
+nav ul {
+    list-style-type: none;
+    padding-top: 1.3rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    justify-items: stretch;
+}
+
+nav li {
+    margin-right: 20px;
+    /* Adjust spacing between navbar items */
+}
+
+nav li:last-child {
+    margin-right: 20px;
+    /* Remove margin for the last navbar item */
+}
+
+nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 200;
+    /* Adjust font weight if needed */
+    font-size: 18px;
+    /* Adjust font size if needed */
+    text-transform: uppercase;
+    /* Transform text to uppercase */
+    font-family: 'AntoniaH3', Georgia, 'Times New Roman', Times, serif;
+    /* Set font family to sans-serif */
+    transition: color 0.3s;
+    /* Smooth transition for color change */
+    padding-right: 15px;
+}
+
+/* Styles for the "registrovat" button */
+.registrovat a {
+    color: #BA110F;
+    /* Red text color */
+    background-color: #FFFFFF;
+    /* White background */
+    padding: 8px 16px;
+    /* Adjust padding as needed */
+    border-radius: 4px;
+    /* Rounded corners */
+}
+
+.registrovat a:hover {
+    background-color: #FFD3D3;
+    /* Light red background on hover */
+    border-bottom: #BA110F;
+    border-style: solid;
+    border-bottom-width: 0.5px;
+
+}
+
+.registrovat a:focus,
+.registrovat a:active {
+    background-color: #FFA6A6;
+    /* Darker red background when clicked */
+}
+
+nav li a:hover {
+    color: #B29A8A;
+    /* Change color on hover */
+    border-bottom: white;
+    border-style: solid;
+    border-bottom-width: 0.5px;
+
+}
+
+nav li a:focus,
+nav li a:active {
+    color: #645d58;
+    /* Change color when clicked */
+}
+
+
+.navigace-logo a:hover {
+    color: #B29A8A;
+}
+
+
+
+/* Hamburger menu styles */
+.hamburger-menu {
+    display: none;
+    /* Hide by default on larger screens */
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 12px;
+}
+
+
+
+
+@media screen and (max-width:885px) {
+    .hamburger-menu {
+        display: block;
+        background-color: #BA110F;
+        padding-left:90%;
+        /* Display on smaller screens */
+    }
+
+    .close-icon {
+        display: none;
+    }
+
+    menu nav {
+        position: relative;
+        height: fit-content;
+       
+    }
+
+   
+
+    nav li:last-child {
+        margin-right: 0px;
+        /* Remove margin for the last navbar item */
+    }
+
+    
+
+    .lista-logo {
+        display: none;
+    }
+
+    menu nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        padding-top:0px;
+    }
+
+    nav li {
+        margin: 0px;
+    }
+
+    menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    nav li a {
+        padding: 0px;
+    }
+}

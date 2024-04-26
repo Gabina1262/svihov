@@ -1,0 +1,181 @@
+.red-section {
+    background-image: url(svihov-bezove-pozadi-nejmensi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-position:initial;
+    color: #FFFFFF;
+    min-height: 100%; 
+    isolation: isolate;
+    width:100%;
+
+}
+
+.red-obsah{
+    width:80%;
+    padding: 50px 0;
+   
+   
+}
+.logo img{
+      
+       margin-top: 100px;
+        
+    }
+    
+
+.hlava{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.uvod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red-intro {
+    position: relative;
+   
+}
+
+.red-intro::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: #BA110F;
+    mix-blend-mode: multiply;
+}
+
+
+.red-intro h4 {
+    font-size: larger;
+    padding-top: 2em;
+
+}
+
+
+
+.sloupecek {
+  
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    cursor:pointer;
+    width:17%;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+
+
+.sloupecek h3 {
+    text-transform: uppercase;
+    font-size: large;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom: 3px;
+}
+.sloupecek h5{
+    padding-top: 10px;
+}
+
+.sloupecek p {
+    text-align: center;
+    padding-top: 1em;
+    line-height: 120%;
+}
+
+.sloupecek ul {
+    padding-top: 8px;
+}
+
+.sloupecek li {
+    display: flex;
+    justify-content: center;
+}
+.sloupecek li a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    text-align: center;
+    padding-bottom: 5px;;
+}
+body {
+    background-color: #B29A8A;
+    color: #FFFFFF;
+    isolation: isolate;
+    width:100%;
+}
+.content{
+    display: none;
+}
+.sipka {
+    display: inline-block;
+    padding: 5px 13px;
+    background-color:transparent ;/* Button background color */
+    color:white; /* Button text color */
+    border:#FFFFFF;
+    border-style: groove;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+
+/* Hover effect */
+.sipka:hover {
+    color:#BA110F;
+    background-color: rgb(252, 250, 250); /* Darker background color on hover */
+}
+
+/* Click effect */
+.sipka:active {
+    transform: translateY(2px); /* Move the button down slightly on click */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a slight shadow on click */
+}
+/* Default link style */
+@media screen and (max-width: 1010px) {
+    .red-section{
+        background-attachment: fixed;
+        width:100%;
+}
+}
+/* Media Query for mobile devices */
+ @media screen and (max-width: 767px) {
+    /* Adjust styles for mobile devices here */
+   .sloupecek {
+        width: 100%; /* Adjust width to fit mobile screens */
+        padding-bottom: 3em; /* Adjust padding as needed */
+    }
+   :root p, h1, h2, h3, h4, h5{
+    font-size: larger;
+   }
+    .red-section {
+        background-attachment: fixed;
+       width:100%;
+    }
+    .sipka{
+        display:none;
+    }
+
+    .header{
+        width:100%;
+    }
+    .red-intro{
+        width:100%;
+    }
+
+    .hlava{
+        margin-bottom:30px;
+    }
+   
+}  

@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'AntoniaH3';
+    src: local('Antonia H3 Light'), local('Antonia-H3-Light'),
+        url('AntoniaH3-Light.woff2') format('woff2'),
+        url('AntoniaH3-Light.woff') format('woff'),
+        url('AntoniaH3-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+* {
+    font-family: 'AntoniaH3', 'Georgia', 'Times New Roman', Times, serif
+}
+
+.red-obsah {
+
+    display: flex;
+
+    justify-content: center;
+    padding-bottom: 50px;
+    width: 100%;
+
+}
+
+.red-obsah a {
+
+    text-decoration: none;
+    text-decoration: underline;
+    color: #FFFFFF;
+    padding-bottom: 3%;
+}
+
+.red-obsah p {
+    padding-bottom: 2%;
+}
+
+.red-obsah li {
+    line-height: 130%;
+
+}
+
+li:last-child {
+    padding-bottom: 15px;
+}
+
+.red-obsah h5 {
+
+    padding-bottom: 2px;
+}
+
+body p {
+    font-size: 16px;
+    font-family: 'Antonia';
+    font-weight: 100;
+}
+
+
+
+
+header h1 {
+    color: #BA110F;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+
+h4 {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+h5 {
+
+    text-transform: uppercase;
+}
+
+.label h5 {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+
+
+.panely {
+    display: flex;
+    align-items: flex-start;
+    margin-top:80px;
+    width:45%;
+
+}
+
+.panely p {
+    padding: 5px;
+}
+
+.panely H3 {
+    margin-top: 10px;
+
+    line-height: 130%;
+    padding: 2%;
+}
+
+.panel1 {
+    border-color: #BA110F;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 1rem;
+    width: 80%;
+
+}
+
+.panel1 .red-intro {
+    height: 350px;
+}
+
+.remesla {
+    cursor: pointer;
+}
+
+
+.panely .panel2 hr {
+    border: 1px solid #BA110F;
+    width: 50%;
+}
+
+
+.panel2 {
+    border-color: #BA110F;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    color: #BA110F;
+    text-align: center;
+    height: 350px;
+    margin: 1rem;
+    width: 80%;
+
+
+}
+
+.panely a {
+    text-decoration: underline;
+}
+
+.panel1 a {
+    color: white;
+    font-weight: 900;
+}
+
+.panel1 .registrovat {
+    color: #BA110F;
+    text-transform: uppercase;
+
+    text-decoration: none;
+    border-color: #BA110F;
+}
+
+
+.panel1 hr {
+    width: 50%;
+}
+
+
+.panel2 a {
+    color: #BA110F;
+    font-weight: 900;
+}
+
+.panely button,
+.sloupecek2 button {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5%;
+}
+
+
+.panel2 hr {
+    border: 1px solid #BA110F;
+    width: 20%;
+}
+
+
+.panely p {
+    line-height: 150%;
+
+}
+
+.panely h2 {
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: larger;
+
+
+}
+
+.bojovnik {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bojovnik-1 {
+   
+    margin-top: -5%;
+    margin-bottom: -15%;
+    margin-left: 10%;
+    z-index: -1;
+}
+
+
+    
+
+@media screen and (max-width: 1100px) {
+    .bojovnik-1 {
+        display: none;
+    }
+
+    .bojovnik {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .panely {
+        width: 70%;
+        padding: 40px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .panely {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    p {
+        font-size: larger;
+
+    }
+
+    .tesit h4 {
+        padding: 40px 0px;
+    }
+
+    .red-obsah {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+    }
+
+    .panel2 {
+        margin-top: 40px;
+        height:auto;
+    }
+
+    .bojovnik-1 {
+        display: none;
+    }
+
+    .logo img{
+        
+        display:block;
+    margin-top:0px;
+    }
+
+    header H1 {
+        font-size: 1em;
+        padding-top: 10px;
+    }
+
+    .copy {
+        text-align: center;
+    }
+
+    .copy H4 {
+        text-align: center;
+    }
+}

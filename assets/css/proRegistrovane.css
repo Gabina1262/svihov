@@ -1,0 +1,466 @@
+.panel3 hr {
+    border: 1px solid #BA110F;
+    width: 40%;
+    text-align: center;
+
+}
+
+.red-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+
+
+}
+
+.red-text p {
+    color: #BA110F;
+    text-align: center;
+}
+
+.uvodnitext {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    border-top: #BA110F;
+    border-style: solid;
+    padding: 15px;
+}
+
+.uvodnitext .sipka {
+    width: 10%px;
+    color: #BA110F;
+    border-color: #BA110F;
+}
+
+.pravidla a {
+    color: #BA110F;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.uvodnitext a {
+    text-decoration: underline;
+    color: #BA110F;
+}
+
+.uvodnitext .sipka:hover {
+    color: #FFFFFF;
+    background-color: #BA110F;
+    transform: 0.3s;
+}
+
+.red-intro h4 {
+    font-size: larger;
+    padding-top: 3em;
+}
+
+.panely1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 6rem;
+}
+
+.panely1 h3 {
+    padding: 10px;
+
+}
+
+.panely1 p {
+    padding: 1em;
+    line-height: 150%;
+}
+
+.panely1 li {
+    line-height: 140%;
+}
+
+
+
+.panely li {
+    line-height: 150%;
+}
+
+.panely1 button {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+
+.panel3 {
+    border-color: #BA110F;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 1rem;
+    margin: 5em 1em;
+    width: 25%;
+    border-radius: 6px;
+    height: 100%;
+    width: 20%;
+    cursor: pointer;
+}
+
+.panel3:active {
+    background-color: #B29A8A;
+    color: #FFFFFF;
+}
+
+
+
+.bilej {
+    color: #FFFFFF;
+}
+
+
+.panel3 h2 {
+    text-transform: uppercase;
+    color: #BA110F;
+    text-align: center;
+    font-size: x-large
+}
+
+.panel3 a {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+footer H4 {
+    padding-bottom: 7px;
+}
+
+.kus-panelu {
+    position: relative;
+
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+.kus-panelu::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: #BA110F;
+    
+    mix-blend-mode: multiply;
+
+    border: #BA110F;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.kus-panelu H3 {
+    padding-bottom: 5px;
+}
+
+.kus-panelu .sipka {
+    text-align: center;
+}
+
+.redbox button {
+    width: 10%;
+    height: 35px;
+
+}
+
+.planek-akce {
+    background-image: url(planek-akce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 40vh;
+}
+
+.planek-akce button {
+    padding: 15px;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.planek-akce .planek-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+}
+
+.planek-akce a {
+    text-decoration: underline;
+    color: #FFFFFF
+}
+
+.obdelnik {
+    margin: auto;
+    border: #FFFFFF;
+    padding: 2%;
+    border-style: solid;
+    width: min(600px, 70%);
+    column-count: 3;
+    column-gap: 20px;
+    text-align: justify;
+
+}
+
+.nad-obdelnikem H2 {
+    padding-top: 5%;
+}
+
+.obdelnik p {
+    margin-bottom: 10%;
+    line-height: 120%;
+}
+
+.obdelnik h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.obdelnik img {
+    margin-left: 35%;
+
+}
+
+.nad-obdelnikem {
+    text-align: center;
+
+    margin: auto;
+    padding: 20px 0px;
+    width: min(500px, 60%);
+
+}
+
+.nad-obdelnikem p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.red-panely {
+    display: flex;
+    align-items: flex-start;
+    margin: 4em;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.red-panely p {
+    padding: 5px;
+    line-height: 130%;
+}
+
+.red-panely H3 {
+    padding: 2%
+}
+
+.red-panely li {
+    line-height: 150%;
+}
+
+.kontakty {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.kontakty h2 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.seznam-kontaktu {
+    display: flex;
+    padding: 2%;
+
+}
+
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1%;
+    width: 100%;
+    align-items: center;
+    border: #B29A8A;
+    border-style: solid;
+    border-radius: 4px;
+    margin: 2%;
+    font-weight: 100;
+}
+
+.kontakt H4 {
+    text-transform: uppercase;
+}
+
+.kontakt a {
+    padding: 2%;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.sloupecek2 {
+    width: 20%;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    cursor:pointer;
+}
+
+.sloupecek2 p {
+    padding: 5%;
+}
+ .sloupecek2 li{
+    padding:5px;
+ }
+
+.sloupecek2 h2 {
+    border-bottom: #FFFFFF;
+    border-style: solid;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.sloupecek2 .button {
+
+    color: #BA110F;
+}
+
+.zmena-programu {
+    font-size: xx-small;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 767px) {
+
+    /* Adjust styles for smaller screens here */
+    .panel3,
+    .sloupecek2 {
+        width: 80%;
+        /*Make the panels full width on smaller screens */
+        margin: 20px;
+        /* Remove margins */
+        padding: 1rem;
+        /* Add padding for better spacing */
+        text-align: center;
+        /* Center align text */
+
+    }
+
+    .uvodnitext {
+        width: 80%;
+        /* Make the introduction text full width on smaller screens */
+        padding: 3rem;
+        /* Add padding for better spacing */
+        text-align: center;
+        /* Center align text */
+        border: none;
+        /* Remove border */
+    }
+
+    /* .uvodnitext .sipka {
+        display: none; /*Hide arrows on smaller screens */
+    /* } */
+    .panely1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+    }
+
+    .planek-akce {
+        height: auto;
+        /*for planek-akce section */
+    }
+
+    .planek-akce .planek-button {
+        padding: 50px;
+        /* Adjust padding for planek buttons */
+    }
+
+    .obdelnik {
+        width: 60%;
+        /* Auto width for obdelnik section */
+        column-count: 1;
+        /*Single column layout for obdelnik */
+        column-gap: 0;
+        /* No column gap */
+        padding: 20px;
+    }
+.obdelnik p{
+    font-size: larger;
+}
+    .nad-obdelnikem {
+        /* Auto width for nad-obdelnikem section */
+        padding: 15px;
+        width: 80%;
+    }
+
+    .kus-panelu h3 {
+        padding-bottom: 10px;
+    }
+
+    .kus-panelu li {
+        line-height: 130%;
+    }
+
+    .planek-akce {
+        height: 200px
+    }
+
+    .panely1 {
+        margin-left: 23%;
+    }
+    .red-panely{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:80%;
+        margin:auto;
+    }
+   .red-panely p{
+        font-size: larger;
+       
+    }
+    .kontakt h4 {
+        width: 100%;
+        padding: 5px;
+        /* Auto width for kontakt h2 */
+    }
+
+    .kontakty {
+        padding: 10px;
+        /* Adjust padding for kontakt section */
+    }
+.kontakty p{
+    font-size: larger;
+}
+    .seznam-kontaktu {
+        flex-direction: column;
+        /* Column layout for seznam-kontaktu */
+        align-items: center;
+        /* Center align items */
+    }
+
+    .kontakt {
+        width: 100%;
+        /* Adjust width of kontakt items */
+        margin: 10px 0;
+        padding: 10px;
+        /* Adjust margin for better spacing */
+    }
+}

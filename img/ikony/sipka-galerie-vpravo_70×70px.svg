@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Vrstva_1" data-name="Vrstva 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 70 70">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <polyline class="cls-1" points="39.6 26.2 48.4 35 39.6 43.8"/>
+  <circle class="cls-1" cx="35" cy="35" r="30.7"/>
+  <line class="cls-1" x1="17.5" y1="35" x2="48.4" y2="35"/>
+</svg>
