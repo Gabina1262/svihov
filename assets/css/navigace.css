@@ -105,9 +105,6 @@ nav li a:active {
     
 } */
 
-.show {
-    display: block; /* Show the menu when the .show class is applied */
-}
 
 
 /* Hamburger menu styles */
