@@ -105,13 +105,7 @@ nav li a:active {
 .navigace-logo a:hover {
     color: #B29A8A;
 }
-.show-menu-items {
-    display: none; /* Initially hide the menu */
-}
 
-.show {
-    display: block; /* Show the menu when the .show class is applied */
-}
 
 
 /* Hamburger menu styles */
@@ -132,6 +126,8 @@ nav li a:active {
         display: block;
         background-color: #BA110F;
         padding-left:90%;
+     position: relative;
+        z-index: 999;
         /* Display on smaller screens */
     }
 
@@ -145,7 +141,20 @@ nav li a:active {
        
     }
 
-   
+    .show-menu-items {
+        display: none; /* Initially hide the menu */
+      position: relative;
+      top: -100%;
+      left:0;
+      width:100%;
+     transition: top 0.5s;
+
+    } 
+    
+    .show {
+        display: block; /* Show the menu when the .show class is applied */
+     
+    }
 
     nav li:last-child {
         margin-right: 0px;
@@ -168,6 +177,7 @@ nav li a:active {
 
     nav li {
         margin: 5px;
+       
     }
 
     menu {

@@ -4,6 +4,7 @@
     padding-top:3%;
     padding-bottom:3%;
 }
+
 .kdykde::after{
 content:'';
 position: absolute;
