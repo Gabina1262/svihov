@@ -1,8 +1,14 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const hamburgerMenu = document.querySelector(".hamburger-menu");
-    const menuItems = document.querySelector(".show-menu-items");
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const menuItems = document.querySelector('.show-menu-items');
 
-    hamburgerMenu.addEventListener("click", function () {
-        menuItems.classList.toggle("show");
+    // Function to toggle the menu
+    function toggleMenu() {
+        menuItems.classList.toggle('show');
+    }
+
+    // Event listener for hamburger menu click
+    hamburgerMenu.addEventListener('click', function() {
+        toggleMenu();
     });
 });

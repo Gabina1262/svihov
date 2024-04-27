@@ -105,7 +105,13 @@ nav li a:active {
 .navigace-logo a:hover {
     color: #B29A8A;
 }
+.show-menu-items {
+    display: none; /* Initially hide the menu */
+}
 
+.show {
+    display: block; /* Show the menu when the .show class is applied */
+}
 
 
 /* Hamburger menu styles */
