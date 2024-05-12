@@ -10,34 +10,30 @@
 
 
 * {
-    font-family: 'AntoniaH3', serif;
+    font-family: 'AntoniaH3',  serif;
 }
-
 /*'Georgia', 'Times New Roman', Times,*/
 
-p {
+p{
     font-size: 17px;
 }
 
-h2 {
-    font-size: 31px;
-    /* netučný, velký písmena*/
+h2{
+font-size: 31px; /* netučný, velký písmena*/
 
 }
 
-h3 {
-    font-size: 31px;
-    /* tučný malý písmena*/
+h3{
+    font-size: 31px; /* tučný malý písmena*/
     font-weight: bold;
 }
-
-h4 {
-    font-size: 17px;
+h4{
+    font-size:17px;
     text-transform: uppercase;
 }
-
 h4 {
     text-align: center;
+    padding-bottom: 1%;
 }
 
 h5 {
@@ -84,7 +80,7 @@ li:last-child {
 
 body p {
     font-size: 17px;
-
+   
 }
 
 
@@ -99,9 +95,9 @@ header h1 {
 }
 
 
-.hlava hr {
-    border: 1px solid #BA110F;
-    width: 200px;
+.hlava hr{
+   border: 1px solid #BA110F;
+   width:200px;
 }
 
 .label h5 {
@@ -109,27 +105,22 @@ header h1 {
     padding-bottom: 0.5em;
 }
 
-.nad-panelama {
-    width: 1000px;
-    padding: 45px 0px;
+.nad-panelama{
+    width:1000px;
+    padding: 30px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.nad-panelama h3{
-padding-bottom: 40px;
+.chcete{
+    color:#BA110F;
 }
-
-.chcete {
-    color: #BA110F;
-}
-
 .panely {
     display: flex;
-    margin-right: 100px;
-    margin-left: 100px;
-
+   margin-right: 100px;
+   margin-left:100px;
+   
 }
 
 .panely p {
@@ -144,20 +135,20 @@ padding-bottom: 40px;
 }
 
 .panel1 {
-    border-color: #880101;
+    border-color:  #880101;
     border-style: solid;
     border-width: 2px;
     border-radius: 4px;
     text-align: center;
     margin: 1rem;
-
-    width: 250px;
+    
+    width:250px;
 
 }
 
 .panel1 .red-intro {
-
-    height: 370px;
+   
+   height:370px;
 }
 
 
@@ -169,8 +160,8 @@ padding-bottom: 40px;
     color: #BA110F;
     text-align: center;
     margin: 1rem;
-
-    width: 250px;
+   
+    width:250px;
     z-index: 1000;
 }
 
@@ -180,7 +171,7 @@ padding-bottom: 40px;
 
 .panel1 a {
     color: white;
-
+   
 }
 
 .panel1 .registrovat {
@@ -199,7 +190,7 @@ padding-bottom: 40px;
 
 .panel2 a {
     color: #BA110F;
-
+   
 }
 
 .panely button,
@@ -230,7 +221,6 @@ padding-bottom: 40px;
     padding-right: 20px;
     font-size: 31px;
 }
-
 .panel2 h2 {
     text-transform: uppercase;
     padding-top: 20px;
@@ -240,7 +230,6 @@ padding-bottom: 40px;
 
 
 }
-
 .bojovnik {
     /* display: flex;
     */
@@ -248,21 +237,20 @@ padding-bottom: 40px;
 }
 
 .bojovnik-1 {
-
+  
     position: absolute;
-    margin-top: -605px;
-    right: 0;
-    display: flex;
+    margin-top:-605px;
+    right:0;
+    display:flex;
     z-index: 1;
 }
 
-.sponzori-obal {
+.sponzori-obal{
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
-
+    
 }
-
+    
 
 @media screen and (max-width: 1100px) {
     .bojovnik-1 {
@@ -276,7 +264,7 @@ padding-bottom: 40px;
     }
 
     .panely {
-       
+        width: 70%;
         padding: 40px 0px;
     }
 }
@@ -297,36 +285,28 @@ padding-bottom: 40px;
 
     .tesit h4 {
         padding: 40px 20px;
-
     }
 
     .red-obsah {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        padding: 10px 0px;
+        width: 50%;
 
-
-    }
-
-    .panel1 .red-intro{
-        height:380px
     }
 
     .panel2 {
         margin-top: 40px;
-        height: 420px;
-
+        height:auto;
     }
 
     .bojovnik-1 {
         display: none;
     }
 
-    .logo img {
-
-        display: block;
-        margin-top: 0px;
+    .logo img{
+        
+        display:block;
+    margin-top:0px;
     }
 
     header H1 {
@@ -341,14 +321,4 @@ padding-bottom: 40px;
     .copy H4 {
         text-align: center;
     }
-
-    .uvod h2 {
-        text-align: center;
-        line-height: 120%;
-    }
-    .panel1 H2, .panel2 H2{
-        line-height: 120%;
-    }
-    
-
 }
