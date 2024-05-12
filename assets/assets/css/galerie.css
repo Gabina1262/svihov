@@ -91,10 +91,5 @@
     .galerie div{
         width:900px;
     }
-    .galerie .carusel-img:hover {
-   
-        cursor: pointer;
-        transform: none;
-    }
   
 } 

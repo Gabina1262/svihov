@@ -10,7 +10,7 @@
     position: absolute;
     inset: 0;
     z-index: -1;
-    background-color: #43362f;
+    background-color: #605A56;
     mix-blend-mode: multiply;
 
 }
@@ -37,7 +37,9 @@
 
 .radek p {
     padding-left: 5px;
-    line-height: 130%;
+
+    line-height: 120%;
+    font-weight: 100;
 }
 
 
@@ -67,12 +69,11 @@
 
 #caroli {
     padding-left: 50px;
-    cursor: pointer;
 }
 
 #jtze {
     padding-left: 25px;
-    cursor: pointer;
+
 }
 
 
@@ -81,19 +82,17 @@
     padding-top: 40px;
     padding-bottom: 45px;
     padding-right: 60px;
-    cursor: pointer;
+   
 
 }
 
 #importo {
     padding-left: 20px;
     padding-right: 50px;
-    cursor: pointer;
 }
 
 #mesto {
     padding-right: 50px;
-    cursor: pointer;
 }
 
 .tesit h4 {
@@ -134,15 +133,13 @@
         /* Reset left padding */
         text-align: center;
         /* Center align paragraphs */
-        padding-right: 0;
-        line-height: 150%;
-      
+        padding-right: 0
     }
 
     .red-sponzori {
         flex-direction: column;
         justify-items: center;
-       
+        padding-bottom:40px;
         padding-right:0px;
     }
 
@@ -151,7 +148,6 @@
         /* Reduce bottom padding */
         padding-left: 0px;
         padding-right: 0px;
-       
        
     }
     #caroli{

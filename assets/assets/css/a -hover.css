@@ -1,0 +1,21 @@
+a {
+    color: #B29A8A; /*Default link color*/
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+    mix-blend-mode: normal; /* Override mix blend mode for links */
+}
+
+/* Hover effect */
+a:hover {
+    color: white /* Change link color on hover */
+}
+
+/* Active (clicked) link effect */
+a:active {
+    color: darken(#BA110F, 10%); /* Darken link color slightly on click */
+}
+
+/* Visited link effect */
+a:visited {
+    color: #BA110F; /* Change color of visited links */
+}
