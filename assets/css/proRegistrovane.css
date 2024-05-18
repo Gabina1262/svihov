@@ -253,7 +253,7 @@
     width: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
-
+    border: 1px solid white;
 }
 
 .kus-programu h3{
@@ -554,6 +554,7 @@
 
 .sloupecek5 hr {
     width: 70%;
+    border: 1px solid white;
 }
 
 .deti {
