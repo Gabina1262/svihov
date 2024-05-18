@@ -50,11 +50,7 @@
     padding-top: 30px;
     font-weight: bold;
 }
-.red-text strong{
-   
-        text-shadow: 2px 1px 3px rgba(163, 26, 26, 0.7);
-      
-}
+
 .uvodnitext {
     display: flex;
     flex-direction: column;
@@ -257,7 +253,7 @@
     width: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
-
+    border: 1px solid white;
 }
 
 .kus-programu h3{
@@ -558,6 +554,7 @@
 
 .sloupecek5 hr {
     width: 70%;
+    border: 1px solid white;
 }
 
 .deti {
